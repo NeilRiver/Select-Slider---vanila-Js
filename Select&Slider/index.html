@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select and Slider</title>
+    <link rel="stylesheet" type="text/css" href="./styles/main_page.css">
+    <link rel="stylesheet" type="text/css" href="./styles/select.css">
+    <link rel="stylesheet" type="text/css" href="./styles/slider.css">
+    <script src="./script/move_card.js"></script>
+</head>
+
+
+<body>
+    <div class="select">
+        <div class="">1</div>
+    </div>
+    <div class="slider_wrapper">
+        <div class="slider_container"></div>
+        <div class="slider_control">
+            <div onclick="count(1)" class="arrow">&lt;</div>
+            <div onclick="count(-1)" class="arrow">&gt;</div>
+        </div>
+    </div>
+
+    <div class="test_wrapper">
+        <div id="test">
+            <h1>О привет</h1>
+        </div>
+
+        <button onclick="count()" style="min-width: 80px; margin-top: 10px;">Ok</button>
+
+    </div>
+</body>
+
+</html>
